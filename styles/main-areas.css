@@ -1,0 +1,57 @@
+.container {
+    width: 1920px;
+    height: 1080px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 4fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    grid-template-areas: "item-1 item-1 item-1 item-1"
+                        "item-2 item-3 item-4 item-5"
+                        "item-2 item-6 item-4 item-5"
+                        "item-2 item-6 item-7 item-5"
+                        "item-2 item-6 item-8 item-9"
+}
+
+.item {
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+.item-1 {
+    grid-area: item-1;
+}
+
+.item-2 {
+    grid-area: item-2;
+}
+
+.item-3 {
+    grid-area: item-3;
+}
+
+.item-4 {
+    grid-area: item-4;
+}
+
+.item-5 {
+    grid-area: item-5;
+}
+
+.item-6 {
+    grid-area: item-6;
+}
+
+.item-7 {
+    grid-area: item-7;
+}
+
+.item-8 {
+    grid-area: item-8;
+}
+
+.item-9 {
+    grid-area: item-9;
+}
